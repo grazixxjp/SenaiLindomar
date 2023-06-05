@@ -1,0 +1,9 @@
+cd documents
+cd mobile
+npx create-expo-app projeto02
+cd projeto02
+npx expo start
+set NODE_OPTIONS=--openssl-legacy-provider
+npx expo start
+
+yarn add @react-navigation/native
